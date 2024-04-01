@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Detail Produk</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/detail.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/produk.css">
+</head>
+
+<body>
+
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Restiani Mart</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="tentang.html">Tentang</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="produk.html">Produk</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="contact.html">Kontak</a>
+                    </li>
+                    <li>
+                        <i class="bx bx-shopping-bag" id="cart-icon" class="nav-link"></i>
+                    </li>
+                </ul>
+                <form>
+                    <a href="login.html" class="custom-btn me-2" role="button">Masuk</a>
+                    <a href="register.html" class="custom-btn" role="button">Daftar</a>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar end -->
+
+    <header>
+        <div class="nav container">
+
+            <div class="cart">
+                <h2 class="cart-title">Keranjang</h2>
+                <!-- content -->
+                <div class="cart-content">
+
+                </div>
+                <!-- Total -->
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">Rp0</div>
+                </div>
+                <!-- buy button -->
+                <button type="button" class="btn-buy">beli Sekarang</button>
+                <!-- cart close -->
+                <i class="bx bx-x" id="close-cart"></i>
+
+            </div>
+        </div>
+        <div id="alert" class="alert">
+            <span class="close-alert">&times;</span> Barang telah ditambahkan ke keranjang
+        </div>
+    </header>
+
+    <div class="card-wrapper">
+        <div class="card">
+            <!-- card left -->
+            <div class="product-imgs">
+                <div class="img-display">
+                    <div class="img-showcase">
+                        <!-- <img src="img/abcsusu.png" alt="shoe image">
+                        <img src="img/aqua.png" alt="shoe image">
+                        <img src="img/abcsusu.png" alt="shoe image">
+                        <img src="img/beras.png" alt="shoe image"> -->
+                    </div>
+                </div>
+                <div class="img-select">
+                    <!-- <div class="img-item">
+                        <a href="#" data-id="1">
+                            <img src="img/abcsusu.png" alt="shoe image">
+                        </a>
+                    </div>
+                    <div class="img-item">
+                        <a href="#" data-id="2">
+                            <img src="img/abcsusu.png" alt="shoe image">
+                        </a>
+                    </div>
+                    <div class="img-item">
+                        <a href="#" data-id="3">
+                            <img src="img/abcsusu.png" alt="shoe image">
+                        </a>
+                    </div>
+                    <div class="img-item">
+                        <a href="#" data-id="4">
+                            <img src="img/abcsusu.png" alt="shoe image">
+                        </a>
+                    </div> -->
+                </div>
+            </div>
+            <!-- card right -->
+            <div class="product-content">
+                <h2 class="product-title"></h2>
+                <div class="product-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span class="rating"></span>
+                </div>
+
+                <div class="product-price">
+                    <p class="price"></p>
+                </div>
+
+                <div class="product-detail">
+                    <h2>Tentang Produk: </h2>
+                    <p class="description"></p>
+                </div>
+
+                <div class="purchase-info">
+                    <button type="button" class="btn buy-btn">Beli</button>
+                    </button>
+
+
+                </div>
+
+                <div class="social-links">
+                    <p class="teks">Share At: </p>
+                    <a href="#">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-pinterest"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer start -->
+    <footer class="footer-distributed">
+
+        <div class="footer-left">
+            <h3>Restiani<span>Mart</span></h3>
+
+            <p class="footer-links">
+                <a href="#">Home</a> |
+                <a href="#">Tentang</a> |
+                <a href="#">Produk</a> |
+                <a href="#">Pesanan</a>
+            </p>
+
+            <p class="footer-company-name">Copyright © 2024 <strong>RestianiMart</strong> All rights reserved</p>
+        </div>
+
+        <div class="footer-center">
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>Kp, Pameungpeuk RT 01/rw23
+                        </span> Jawa Barat
+                </p>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+62 21 123-4567</p>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto:sagar00001.co@gmail.com">RestianiMart@gmail.com</a></p>
+            </div>
+        </div>
+        <div class="footer-right">
+            <p class="footer-company-about">
+                <span>Tentang Warung Sembako</span>
+                <strong>Restiani Mart</strong> adalah warung sembako yang berkomitmen untuk menyediakan kebutuhan pokok dengan kualitas terbaik dan harga terjangkau. Didirikan dengan semangat untuk membantu masyarakat dalam menghadapi tantangan ekonomi,
+                Restiani Mart menjadi tempat yang dapat diandalkan untuk mendapatkan barang-barang kebutuhan sehari-hari.
+            </p>
+            <div class="footer-icons">
+                <i href="#" class="fa-brands fa-facebook white-icon"></i>
+                <i href="#" class="fa-brands fa-instagram white-icon"></i>
+                <i href="#" class="fa-brands fa-x-twitter white-icon"></i>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js" integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/main2.js"></script>
+
+    <script>
+        const url = window.location.href;
+        const id = url.match(/(?:id=)(\d+)/)[1];
+        // console.log(produk)
+        let getProductID = produk.find(product => product.id == id);
+
+        // Menambahkan image thumbnail ke dalam gallery detail images produk
+        let arrImagesProdukAll = getProductID.images;
+        arrImagesProdukAll.push(getProductID.thumbnail)
+
+        $(".product-title").html(`${getProductID.title}`)
+        $(".price").html(`${getProductID.price}`)
+        $('.rating').html(getProductID.rating)
+        $(".description").html(getProductID.description)
+
+        let imagesGallery = "";
+        let produkImagesAll = "";
+
+        arrImagesProdukAll.forEach((image, index) => {
+            imagesGallery += `
+            <div class="img-item">
+                <a href="#" data-id="${index + 1}">
+                    <img src="${image}" alt="shoe image">
+                </a>
+            </div>
+            `
+            produkImagesAll += `
+            <img src="${image}" alt="shoe image">
+            `
+        })
+
+        $(".img-select").html(imagesGallery)
+        $(".img-showcase").html(produkImagesAll)
+
+
+        $(document).ready(function() {
+            const $imgBtns = $('.img-select a');
+            let imgId = 1;
+            $imgBtns.on('click', function(event) {
+                event.preventDefault();
+                imgId = $(this).data('id');
+                slideImage();
+            });
+
+            function slideImage() {
+                const displayWidth = $('.img-showcase img:first-child').width();
+                $('.img-showcase').css('transform', 'translateX(' + (-(imgId - 1) * displayWidth) + 'px)');
+            }
+            $(window).on('resize', slideImage);
+        })
+    </script>
+</body>
+
+</html>

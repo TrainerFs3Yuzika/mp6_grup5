@@ -37,13 +37,10 @@
                         <a class="nav-link active" href="produk.html">Produk</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Pesanan</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link " href="contact.html">Kontak</a>
                     </li>
                     <li>
-                        <i class="bx bx-shopping-bag" id="cart-icon" class="nav-link"></i>
+                        <i class="bx bx-cart" id="cart-icon" class="nav-link"></i>
                     </li>
                 </ul>
                 <form>
@@ -54,14 +51,14 @@
         </div>
     </nav>
     <!-- navbar end -->
-    <header>
-        <div class="nav container">
 
+    <!-- content start -->
+    <header class="">
+        <div class="nav container">
             <div class="cart">
-                <h2 class="cart-title">Your Cart</h2>
+                <h2 class="cart-title">Keranjang</h2>
                 <!-- content -->
                 <div class="cart-content">
-
                 </div>
                 <!-- Total -->
                 <div class="total">
@@ -69,103 +66,26 @@
                     <div class="total-price">Rp0</div>
                 </div>
                 <!-- buy button -->
-                <button type="button" class="btn-buy">beli Sekarang</button>
+                <button type="button" class="btn-buy">Beli Sekarang</button>
                 <!-- cart close -->
                 <i class="bx bx-x" id="close-cart"></i>
-
             </div>
         </div>
-        <div id="alert" class="alert">
-            <span class="close-alert">&times;</span> Barang telah ditambahkan ke keranjang
-        </div>
     </header>
+
     <!-- shop start -->
     <section class="shop container">
-        <h2 class="section-title">Produk</h2>
         <form class="d-flex">
-            <input id="searchInput" class="form-control me-2" type="search" placeholder="Cari di Restiani Mart" aria-label="Search" style="width: 210px;">
-            <button class="btn btn-outline-success" type="button" onclick="cariProduk()">Cari</button>
+            <input id="searchInput" class="searchInput form-control me-2" type="search" placeholder="Cari di Restiani Mart" aria-label="Search" style="width: 210px;">
+            <button class="search-produk btn btn-outline-success" type="button">Cari</button>
         </form>
 
         <!-- content -->
         <div class="shop-content produk-tampil">
-            <!-- box 1 -->
-            <div class="product-box">
-                <img src="img/beras.png" alt="" class="product-img">
-                <h2 class="product-title">Beras Sania 5kg</h2>
-                <span class="price">Rp74.500</span>
-                <h2 class="fa-solid fa-star" class="product-info"> 4.7 | 90 terjual</h2>
-                <a href="http://" class="tombol">Detail Produk</a>
-                <i class="bx bx-shopping-bag add-cart">keranjang</i>
-            </div>
-            <!-- box 2 -->
-            <div class="product-box">
-                <img src="img/minyak.png" alt="" class="product-img">
-                <h2 class="product-title">Minyak Sunco 1Liter</h2>
-                <span class="price">Rp16500</span>
-                <h2 class="fa-solid fa-star" class="product-info"> 4.9 | 60 terjual</h2>
-                <a href="http://" class="tombol">Detail Produk</a>
-                <i class="bx bx-shopping-bag add-cart">Keranjang</i>
-            </div>
-            <!-- box 3 -->
-            <div class="product-box">
-                <img src="img/gulaku.png" alt="" class="product-img">
-                <h2 class="product-title">Gulaku 1kg</h2>
-                <span class="price">Rp18000</span>
-                <h2 class="fa-solid fa-star" class="product-info"> 4.8 | 73 terjual</h2>
-                <a href="http://" class="tombol">Detail Produk</a>
-                <i class="bx bx-shopping-bag add-cart">keranjang</i>
-            </div>
-            <!-- box 4 -->
-            <div class="product-box">
-                <img src="img/abcsusu.png" alt="" class="product-img">
-                <h2 class="product-title">Kopi Abc Susu 10 Sachet</h2>
-                <span class="price">Rp14000</span>
-                <h2 class="fa-solid fa-star" class="product-info"> 4.8 | 89 terjual</h2>
-                <a href="http://" class="tombol">Detail Produk</a>
-                <i class="bx bx-shopping-bag add-cart">keranjang</i>
-            </div>
-            <!-- box 5 -->
-            <div class="product-box">
-                <img src="img/indomie.png" alt="" class="product-img">
-                <h2 class="product-title">Indomie Goreng 1 Dus</h2>
-                <span class="price">Rp118000</span>
-                <h2 class="fa-solid fa-star" class="product-info"> 4.8 | 40 terjual</h2>
-                <a href="http://" class="tombol">Detail Produk</a>
-                <i class="bx bx-shopping-bag add-cart">keranjang</i>
-            </div>
-            <!-- box 6 -->
-            <div class="product-box">
-                <img src="img/sabunlifebuoy.png" alt="" class="product-img">
-                <h2 class="product-title">Sabun Lifebuoy 10 Batang</h2>
-                <span class="price">Rp35500</span>
-                <h2 class="fa-solid fa-star" class="product-info"> 4.8 | 88 terjual</h2>
-                <a href="http://" class="tombol">Detail Produk</a>
-                <i class="bx bx-shopping-bag add-cart">keranjang</i>
-            </div>
-            <!-- box 7 -->
-            <div class="product-box">
-                <img src="img/aqua.png" alt="" class="product-img">
-                <h2 class="product-title">Aqua 330ML 1 Dus</h2>
-                <span class="price">Rp43000</span>
-                <h2 class="fa-solid fa-star" class="product-info"> 4.8 | 60 terjual</h2>
-                <a href="http://" class="tombol">Detail Produk</a>
-                <i class="bx bx-shopping-bag add-cart">keranjang</i>
-            </div>
-            <!-- box 8 -->
-            <div class="product-box">
-                <img src="img/kapalapi.png" alt="" class="product-img">
-                <h2 class="product-title">Kopi Kapal Api 10 Sachet</h2>
-                <span class="price">Rp14000</span>
-                <h2 class="fa-solid fa-star" class="product-info"> 4.8 | 103 terjual</h2>
-                <a href="http://" class="tombol">Detail Produk</a>
-                <i class="bx bx-shopping-bag add-cart">keranjang</i>
-            </div>
-
-
         </div>
     </section>
     <!-- shop end -->
+    <!-- content end -->
 
     <!-- footer start -->
     <footer class="footer-distributed">
@@ -214,9 +134,10 @@
         </div>
     </footer>
     <!-- footer end -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js" integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script type="text/javascript" src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/main2.js"></script>
 </body>
 
 </html>

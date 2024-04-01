@@ -103,7 +103,7 @@ header {
 /* footer start */
 
 footer {
-    position: fixed;
+    position: static;
     bottom: 0;
 }
 
