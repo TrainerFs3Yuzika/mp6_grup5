@@ -22,10 +22,8 @@ var produk = [{
         "brand": "Sunco",
         "thumbnail": "https://i.ibb.co/zXh4YF6/minyak.png",
         "images": [
-            "https://cdn.dummyjson.com/product-images/2/1.jpg",
-            "https://cdn.dummyjson.com/product-images/2/2.jpg",
-            "https://cdn.dummyjson.com/product-images/2/3.jpg",
-            "https://cdn.dummyjson.com/product-images/2/thumbnail.jpg"
+            "https://i.ibb.co/2kDXPWt/sunco-removebg-preview.png",
+            "https://i.ibb.co/DpxchVR/suncobro.jpg"
         ]
     },
     {
@@ -38,9 +36,7 @@ var produk = [{
         "brand": "Gulaku",
         "thumbnail": "https://i.ibb.co/RCjYn6J/gulaku.png",
         "images": [
-            "https://cdn.dummyjson.com/product-images/3/1.jpg",
-            "https://cdn.dummyjson.com/product-images/2/1.jpg",
-            "https://cdn.dummyjson.com/product-images/2/1.jpg"
+            "https://i.ibb.co/1016nJr/gulaku.jpg"
         ]
     },
     {
@@ -53,9 +49,8 @@ var produk = [{
         "brand": "ABC",
         "thumbnail": "https://i.ibb.co/55zFVtD/abcsusu.png",
         "images": [
-            "https://cdn.dummyjson.com/product-images/4/3.jpg",
-            "https://cdn.dummyjson.com/product-images/4/4.jpg",
-            "https://cdn.dummyjson.com/product-images/4/thumbnail.jpg"
+            "https://i.ibb.co/vD0tGDc/kopi-1.jpg",
+            "https://i.ibb.co/T0R7zZF/abc-1.jpg",
         ]
     },
     {
@@ -69,10 +64,8 @@ var produk = [{
         "thumbnail": "https://i.ibb.co/pKmXYF4/indomie.png",
         "images": [
 
-            "https://cdn.dummyjson.com/product-images/4/2.jpg",
-            "https://cdn.dummyjson.com/product-images/4/3.jpg",
-            "https://cdn.dummyjson.com/product-images/4/4.jpg",
-            "https://cdn.dummyjson.com/product-images/4/thumbnail.jpg"
+            "https://i.ibb.co/0tjBfj0/indomie-paket-indomie-4-pcs-bonus-boncabe-full01-1.jpg",
+            "https://i.ibb.co/xfmWqNn/image-1634033107.jpg"
         ]
     },
     {
@@ -85,10 +78,8 @@ var produk = [{
         "brand": "Indomie",
         "thumbnail": "https://i.ibb.co/R9VsvKt/sabunlifebuoy.png",
         "images": [
-            "https://cdn.dummyjson.com/product-images/4/2.jpg",
-            "https://cdn.dummyjson.com/product-images/4/3.jpg",
-            "https://cdn.dummyjson.com/product-images/4/4.jpg",
-            "https://cdn.dummyjson.com/product-images/4/thumbnail.jpg"
+            "https://i.ibb.co/j6dxwvZ/c4e07b7f6a25528fd56742bd9f111c92.jpg",
+            "https://i.ibb.co/g7dVVxk/lifebuoy-lifebuoy-sabun-batang-total-10-75-g-full04-1.jpg"
         ]
     },
 
@@ -102,10 +93,8 @@ var produk = [{
         "brand": "Indomie",
         "thumbnail": "https://i.ibb.co/S5z8jJ8/aqua.png",
         "images": [
-            "https://cdn.dummyjson.com/product-images/4/2.jpg",
-            "https://cdn.dummyjson.com/product-images/4/3.jpg",
-            "https://cdn.dummyjson.com/product-images/4/4.jpg",
-            "https://cdn.dummyjson.com/product-images/4/thumbnail.jpg"
+            "https://i.ibb.co/hDgj1B9/aqua-aqua-air-mineral-dalam-kemasan-330ml-full01-1.jpg",
+            "https://i.ibb.co/wsStHmb/pp-1.jpg"
         ]
     },
     {
@@ -118,10 +107,8 @@ var produk = [{
         "brand": "Indomie",
         "thumbnail": "https://i.ibb.co/1vwqWyJ/kapalapi.png",
         "images": [
-            "https://cdn.dummyjson.com/product-images/4/2.jpg",
-            "https://cdn.dummyjson.com/product-images/4/3.jpg",
-            "https://cdn.dummyjson.com/product-images/4/4.jpg",
-            "https://cdn.dummyjson.com/product-images/4/thumbnail.jpg"
+            "https://i.ibb.co/SJWQr71/kapal-1.jpg",
+            "https://i.ibb.co/VYzpLbz/ss-1.jpg"
         ]
     },
 
