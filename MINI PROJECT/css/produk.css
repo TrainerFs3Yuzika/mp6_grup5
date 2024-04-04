@@ -180,6 +180,15 @@ section {
     margin-left: 0.5rem;
 }
 
+.add-cart {
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: bold;
+}
+
+.bx-cart:before {
+    font-family: 'boxicons' !important;
+}
+
 .tombol {
     margin-bottom: 40px;
     display: inline-block;

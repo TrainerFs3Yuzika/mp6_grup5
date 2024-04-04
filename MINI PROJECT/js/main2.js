@@ -36,7 +36,8 @@ var produk = [{
         "brand": "Gulaku",
         "thumbnail": "https://i.ibb.co/RCjYn6J/gulaku.png",
         "images": [
-            "https://i.ibb.co/1016nJr/gulaku.jpg"
+            "https://i.ibb.co/1016nJr/gulaku.jpg",
+            "https://i.ibb.co/TM0nyY9/S85f8e2b349934639aa5287103898ff393.jpg"
         ]
     },
     {
@@ -151,7 +152,7 @@ function getAllProduk(product) {
           <span class="price">Rp${getFormatRupiah(product[i].price)}</span>
           <h2 class="fa-solid fa-star" class="product-info"> ${product[i].rating} | ${product[i].terjual} terjual</h2>
           <a href="detailproduk.html?id=${product[i].id}" class="tombol">Detail Produk</a>
-          <i onclick="addToCart(${product[i].id})" class="add-cart bx bx-cart">Keranjang</i>
+          <i onclick="addToCart(${product[i].id})" class="add-cart bx bx-cart" style="font-family: 'Poppins', sans-serif !important;">Keranjang</i>
       </div>
       `
     }
